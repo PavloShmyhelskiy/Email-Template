@@ -14,6 +14,7 @@
 			margin: 0;
 			padding: 0;
 			line-height: 100%;
+            font-family: 'Noto Sans';
 		}
 
 		[style*="Noto Sans"] {font-family: 'Noto Sans', arial, sans-serif !important;}
@@ -38,20 +39,27 @@
 			mso-table-lspace: 0pt;
 			mso-table-rspace: 0pt;
 		}
-        .headerLogo{
-            padding-top: 36px;
-            padding-bottom: 35px;
-        }
         .icons-table td{
             padding-right: 22px;
             padding-bottom: 25px;
         }
         .section-td{
             padding-bottom: 40px;
+            width: 600px;
+            height: 292px
         }
         .heroes-td{
             padding-bottom: 40px;
         }
+        td p{
+            margin-block-start: 0px;
+            margin-block-end: 0px;
+        }
+        td h2{
+            margin-block-start: 0px;
+            margin-block-end: 0px;
+        }
+
         .line-td{
             padding-bottom: 40px;
             padding-top: 40px;
@@ -63,11 +71,54 @@
             padding-bottom: 17px;
         }
         .logo-td{
-            padding-bottom: 13px;
+            padding-bottom: 35px;
         }
         .ico{
             height: 22px;
             width: 22px;
+        }
+        .logo{
+                width: 190px;
+                height: 49px;
+                font-size: 36px;
+                text-align: center;
+        }
+        .heroesWelcome{
+            font-style: normal;
+            font-weight: bold;
+            font-size: 36px;
+            line-height: 49px;
+            text-align: center;
+            margin: 0;
+            padding-bottom: 24px;
+            padding-top: 20px;
+        }
+        .heroesImg{
+            padding-bottom: 25px;
+        }
+        .sampleText{
+            font-size: 19px;
+            text-align: center;
+        }
+        .tryIt{
+            text-decoration: none;
+            padding: 13px;
+            background: white;
+            border: 1px solid black;
+            box-sizing: border-box;
+            border-radius: 4px;
+            font-size: 14px;
+            font-weight: bold;
+        }
+        .tryItTd{
+            height: 42px;
+            padding-top: 24px;
+            padding-bottom: 20px;
+        }
+        .text-td{
+            width: 600px;
+            height: 124px;
+            padding-left: 30px;
         }
 	</style>
 </head>
@@ -83,40 +134,139 @@
                         </tr>
                         <tr>
                             <td align="center" class="headerLogo">
-                                <img src="https://i.postimg.cc/5NSPf6ch/LOGO.png" alt="logo" />
+                                <h1 class="logo">Internship</h1>
                             </td>
                         </tr>
                         <tr>
                             <td class="heroes-td" align="center">
+                                <table cellpadding="0" cellspacing="0">
+                                    <tr>
+                                        <td class="heroesWelcome">Welcome HTML =)</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="heroesImg">
+                                            <img src="https://i.postimg.cc/sX77Zc1P/Amigos-Design-Jam.png" alt="heroes" />
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td style="width: 504px; height: 72px;">
+                                            <p class="sampleText">
+                                                Boost your emails with Blush! Create dope emails easy and fast!  Install the Blush plugin to customize all the illustrations!  
+                                            </p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td align="center" class="tryItTd">
+                                            <a class="tryIt" href="https://blush.design/">
+                                                Try it now!
+                                            </a>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="section-td" align="center">
+                                <table cellpadding="0" cellspacing="0">
+                                    <tr>
+                                        <td style="width:260px">
+                                            <img src="https://i.postimg.cc/ZnnDrnvx/Amigos-Outdoors.png" alt="Section1" />
+                                        </td>
+                                        <td style="padding-left: 24px;">
+                                            <table cellpadding="0" cellspacing="0">
+                                                <tr>
+                                                    <td><h2 style="width:260px; height: 68px; font-size: 27px; font-weight: bold; line-height: 34px; padding-bottom: 8px; padding-top: 27px;">Customize this email template!</h2></td>
+                                                </tr>
+                                                <tr><td>
+                                                    <p style="width:260px; height: 72px; font-size:19px; padding-bottom: 16px; line-height: 24px;">Boost your emails with Blush! Create dope emails easy and fast!</p>
+                                                </td></tr>
+                                                <tr>
+                                                    <td align="center" style="height: 42px; width: 97px; padding-bottom: 27px;">
+                                                        <a class="tryIt" href="https://blush.design/">
+                                                            Try it now!
+                                                        </a>
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                </table>
                                 <a href="https://blush.design/">
-                                    <img src="https://i.postimg.cc/kXTpxBjx/Heroes.png" alt="heroes" />
+                                    
                                 </a>
                             </td>
                         </tr>
                         <tr>
                             <td class="section-td" align="center">
+                                <table cellpadding="0" cellspacing="0">
+                                    <tr>
+                                        
+                                        <td style="padding-right: 24px;">
+                                            <table cellpadding="0" cellspacing="0">
+                                                <tr>
+                                                    <td><h2 style="width:260px; height: 68px; font-size: 27px; font-weight: bold; line-height: 34px; padding-bottom: 8px; padding-top: 27px;">Customize this email template!</h2></td>
+                                                </tr>
+                                                <tr><td>
+                                                    <p style="width:260px; height: 72px; font-size:19px; padding-bottom: 16px; line-height: 24px;">Boost your emails with Blush! Create dope emails easy and fast!</p>
+                                                </td></tr>
+                                                <tr>
+                                                    <td align="center" style="height: 42px; width: 97px; padding-bottom: 27px;">
+                                                        <a class="tryIt" href="https://blush.design/">
+                                                            Try it now!
+                                                        </a>
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                        </td>
+                                        <td style="width:260px">
+                                            <img src="https://i.postimg.cc/tR2gp4dR/Amigos-Sittingon-Floor.png" alt="Section2" />
+                                        </td>
+                                    </tr>
+                                </table>
                                 <a href="https://blush.design/">
-                                    <img src="https://i.postimg.cc/3NFwxPHF/Section1.png" alt="Section1" />
+                                    
                                 </a>
                             </td>
                         </tr>
                         <tr>
                             <td class="section-td" align="center">
+                                <table cellpadding="0" cellspacing="0">
+                                    <tr>
+                                        <td style="width:260px">
+                                            <img src="https://i.postimg.cc/1zstyndt/Amigos-Avatar.png" alt="Section1" />
+                                        </td>
+                                        <td style="padding-left: 24px;">
+                                            <table cellpadding="0" cellspacing="0">
+                                                <tr>
+                                                    <td><h2 style="width:260px; height: 68px; font-size: 27px; font-weight: bold; line-height: 34px; padding-bottom: 8px; padding-top: 27px;">Customize this email template!</h2></td>
+                                                </tr>
+                                                <tr><td>
+                                                    <p style="width:260px; height: 72px; font-size:19px; padding-bottom: 16px; line-height: 24px;">Boost your emails with Blush! Create dope emails easy and fast!</p>
+                                                </td></tr>
+                                                <tr>
+                                                    <td align="center" style="height: 42px; width: 97px; padding-bottom: 27px;">
+                                                        <a class="tryIt" href="https://blush.design/">
+                                                            Try it now!
+                                                        </a>
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                </table>
                                 <a href="https://blush.design/">
-                                    <img src="https://i.postimg.cc/kgpgGQLz/Section2.png" alt="Section2" />
+                                    
                                 </a>
                             </td>
                         </tr>
                         <tr>
-                            <td class="section-td" align="center">
-                                <a href="https://blush.design/">
-                                    <img src="https://i.postimg.cc/zDxZqJsP/Section3.png" alt="Section3" />
-                                </a>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td class="text-td" align="center">
-                                <img src="https://i.postimg.cc/26HcN51Q/Text.png" alt="Text" />
+                            <td class="text-td" align="left">
+                                <p style="font-size: 18.5px; font-style: normal; line-height: 31px;">
+                                    Boost your emails with Blush! Create dope emails easy and fast! 
+                                    Install the Blush plugin to customize all the illustrations!
+                                    <br><br>
+                                    Create the coolest emails!
+                                </p>
                             </td>
                         </tr>
                         <tr>
@@ -167,9 +317,14 @@
                                     </tr>
                                     <tr>
                                         <td class="address-td" align="center">
-                                            <a href="#">
-                                                <img src="https://i.postimg.cc/CKMMcvkR/Address.png" alt="Address" />
-                                            </a>
+                                            <table cellpadding="0" cellspacing="0">
+                                                <tr>
+                                                    <td style="width: 165px; height: 42px;"><p style="font-size: 13px; text-align: center; line-height: 19px;">Address, #PC<br>City, State.</p></td>
+                                                </tr>
+                                                <tr>
+                                                    <td align="center"><a href="" style="font-size: 13px;">Unsubscribe</a></td>
+                                                </tr>
+                                            </table>
                                         </td>
                                     </tr>
                                     <tr>
